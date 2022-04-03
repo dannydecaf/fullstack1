@@ -1,0 +1,20 @@
+<form class="box" action="/county/{{county._id}}/addplace" method="POST">
+  <label>Enter Place Details:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Place Name" name="place">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Description" name="description">
+      </div>
+      <div class="field">
+        <input class="input" type="number" step="0.0000001" placeholder="Enter Latitude" name="latitude">
+      </div>
+      <div class="field">
+        <input class="input" type="number" step="0.0000001" placeholder="Enter Longitude" name="longitude">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary">Add Place</button>
+</form>
