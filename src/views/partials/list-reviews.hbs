@@ -1,0 +1,30 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Reviewer</th>
+      <th>Review</th>
+      <th>Rating</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each poi.reviews}}
+      <tr>
+        <td>
+          {{reviewer}}
+        </td>
+        <td>
+          {{review}}
+        </td>
+        <td>
+          {{rating}} / 5
+        </td>
+        <td>
+          <a href="/poi/{{../poi._id}}/deletereview/{{_id}}" class="ui icon button">
+            <i class="fas fa-trash"></i>
+          </a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<form class="box" action="/poi/{{poi._id}}/addreview" method="POST">
+  <label>Enter Review Details:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Reviewer Name" name="reviewer">
+      </div>
+      <div class="field">
+        <input class="input" type="text" placeholder="Enter Review" name="review">
+      </div>
+      <div class="field">
+        <input class="input" type="number" step="0.5" placeholder="Enter Rating" name="rating">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary">Add Review</button>
+</form>

@@ -1,0 +1,130 @@
+{
+  "reviews": [
+    {
+      "reviewer": "Andy Brennan",
+      "review": "Beautiful place well laid out. Sadly there has been some vandalism to parts of the park. Though there are signs that this may be repaired in the near future.",
+      "rating": 4,
+      "_id": "6ab214ae-89c1-4642-91b7-4bd15ca62a57",
+      "poiid": "0a4414d6-686c-46cf-88b9-fb04685ed16c"
+    },
+    {
+      "reviewer": "Tom Lynam",
+      "review": "Lovely open park by the shore of Lough Neagh, great view of Coney Island. Nice children's play area and places to walk, plenty of car park space.",
+      "rating": 4.5,
+      "_id": "74ada034-0dc5-4297-927f-2ada8d38e7fc",
+      "poiid": "18c041d2-175d-4c50-9c93-17c5d22e0c25"
+    },
+    {
+      "reviewer": "Andrew Carroll",
+      "review": "The park is kept beautiful and clean, its a nice walk, there is a kids play area and exercise machines located on the trail.",
+      "rating": 4.5,
+      "_id": "8d9985d6-a926-4a20-bf5e-ce0e97c2bfc6",
+      "poiid": "990baee8-d8f1-4f78-afce-dacef7143018"
+    },
+    {
+      "reviewer": "Conor Daly",
+      "review": "Beautiful place but the toilet facilities are disgusting. Overflowing bin. Dirty toilets. And no waste bins anywhere. I'm sure it could be managed better.",
+      "rating": 2.5,
+      "_id": "020e1acc-13e0-4705-afb5-773f37c3b39c",
+      "poiid": "9f61f2b8-9677-4bb8-818a-e161383c42b7"
+    },
+    {
+      "reviewer": "Mike Robbins",
+      "review": "A stunning stunning place even in the cold of January, a beautiful walk and a very interesting history. For anyone that ever visits the Macroom area this is a must.",
+      "rating": 5,
+      "_id": "cf46996a-5638-4e44-bf33-d725e293b6db",
+      "poiid": "5c9d9dca-d4a3-4169-bba4-1e962c23bbb0"
+    },
+    {
+      "reviewer": "Claire Fahy",
+      "review": "It's very simply a stunning location. The wildlife is beautiful and comes reasonably close. The walk is simple if you like it or a bit tougher if you desire.",
+      "rating": 5,
+      "_id": "f5ff1215-8e33-4494-8aa5-7d91bf5ebb86",
+      "poiid": "d8a9425d-3da3-4d40-ad50-338074ee5256"
+    },
+    {
+      "reviewer": "Sinead Lawler",
+      "review": "Great amenities for all family. Public toilets and ice cream coffee shop at the park at entry to beach. Lots of a tree area for walks and cycles.",
+      "rating": 4.5,
+      "_id": "e2218b91-137d-4e97-ad00-cd16f122b04c",
+      "poiid": "681ca65d-b59a-4617-9a8b-84acf269d448"
+    },
+    {
+      "reviewer": "Brian Foy",
+      "review": " The scenery is nice,but there's only one picnic table and the entrance needs instructions.",
+      "rating": 3,
+      "_id": "d52d7f51-bbd1-41df-95f8-d8ea238b9aaa",
+      "poiid": "63041090-6f27-44db-b539-802ce0816384"
+    },
+    {
+      "reviewer": "Sandra Dobbin",
+      "review": "Nice little hiking trails and wonderful views. Only problem is the lack of directions and if you don't pay attention you could easily get lost.",
+      "rating": 4,
+      "_id": "17d2b165-a2d0-4a62-839b-a09b49c81165",
+      "poiid": "b8e24ed0-0f3b-49db-8085-c5034259443a"
+    },
+    {
+      "reviewer": "Rachel Connolly",
+      "review": "Lovely walk through woodland and structured gardens. Dog friendly!  Bicycles available to hire; going to try that next time. Good coffee and homemade carrot cake in the teashop afterwards.",
+      "rating": 5,
+      "_id": "3c6931f7-ef76-499e-b309-5639c9cef204",
+      "poiid": "5cd70c04-d5b6-497c-bc19-477aba07f4e3"
+    },
+    {
+      "reviewer": "Erin Connell",
+      "review": "Beautiful woods, well taken care off. There is a main pathway you can walk or cycle. There's also a few other off the beaten tracks into the forest area that proves to be beautiful and lush.",
+      "rating": 4,
+      "_id": "9ccb9518-08d4-4c5c-9de0-414f41752249",
+      "poiid": "0183d862-756a-40e0-b9ce-920bb457239d"
+    },
+    {
+      "reviewer": "Eimear Lambe",
+      "review": "Long hiking trails, bicycle ways, magnificent landscapes, nature, vegetation, diversity of living things... simply  awesome but one day is not enough.",
+      "rating": 4.5,
+      "_id": "0be9b8ce-fe62-4930-92a3-1ce6d08dec23",
+      "poiid": "2c40562d-ddcb-4f9a-b87e-5c6318877987"
+    },
+    {
+      "reviewer": "Francis O’Donnell",
+      "review": "Beautiful peaceful stop. Could spend days here.",
+      "rating": 4.5,
+      "_id": "e1547d6e-1066-43e1-a511-41abd4a0a654",
+      "poiid": "9f29e199-0e20-4ccc-adae-cfaecd39d4d1"
+    },
+    {
+      "reviewer": "Barry Bracken",
+      "review": "Great walking trails. The highest point in westmeath is also located here.",
+      "rating": 4,
+      "_id": "0a9e8c50-16d3-4e30-809e-d204dc043d54",
+      "poiid": "e6b5114e-2bce-4e47-9781-879455912089"
+    },
+    {
+      "reviewer": "Leanne Lee",
+      "review": "Breathtaking. A Sunday well spent.",
+      "rating": 4.5,
+      "_id": "aea4729c-34a9-4a67-bfce-41e68342e331",
+      "poiid": "8e404c1e-ed4d-4675-a34b-fb89636cb85c"
+    },
+    {
+      "reviewer": "Lauren Byrne",
+      "review": "Great loop walk couple of different routes depending fitness, the pathway leeds all the way to Benbulben, Few seating spots along the way to bask in the views of Sligo.",
+      "rating": 5,
+      "_id": "bed880cc-d643-478b-9332-babf41b5fb53",
+      "poiid": "9855156a-8fe4-4ca0-9fb3-4695fd41d46b"
+    },
+    {
+      "reviewer": "Eoin Kelly",
+      "review": "Beautiful place for walks. Unfortunately there have been constructions/renovations at the time of the visit so many trails markings were not adequate. Worth visit anyway.",
+      "rating": 3.5,
+      "_id": "4dcda819-ba5d-446d-b97c-ae1ebcd59012",
+      "poiid": "9b3e8543-e05a-4a5e-bee4-a4441ba3b60c"
+    },
+    {
+      "reviewer": "Peter McGlinchey",
+      "review": "Lovely gardens, and castle buildings. Large carpark, toilet facilities, water for dogs.",
+      "rating": 5,
+      "_id": "8d435342-176b-4cbf-bd04-5a201b066d00",
+      "poiid": "e27992e6-d6bd-4f13-be66-b9bd84ec445e"
+    }
+  ]
+}

@@ -1,22 +1,22 @@
 import { assert } from "chai";
-import { db } from "../src/models/db.js";
-import { master, testUsers } from "./fixtures.js";
-import { assertSubset } from "./test-utils.js";
+import { db } from "../../src/models/db.js";
+import { master, testUsers } from "../fixtures.js";
+import { assertSubset } from "../test-utils.js";
 
 suite("User Model tests", () => {
 
-  setup(async () => {
-    db.init("mongo");
-    await db.userStore.deleteAll();
-    for (let i = 0; i < testUsers.length; i += 1) {
-      // eslint-disable-next-line no-await-in-loop
-      testUsers[i] = await db.userStore.addUser(testUsers[i]);
-    }
-  });
+    setup(async () => {
+      db.init("mongo");
+      await db.userStore.deleteAll();
+      for (let i = 0; i < testUsers.length; i += 1) {
+        // eslint-disable-next-line no-await-in-loop
+        testUsers[i] = await db.userStore.addUser(testUsers[i]);
+      }
+    });
 
   test("create a user", async () => {
     const newUser = await db.userStore.addUser(master);
-    assertSubset(master, newUser)
+    assertSubset(master, newUser);
   });
 
   test("delete all userApi", async () => {

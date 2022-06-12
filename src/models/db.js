@@ -1,19 +1,36 @@
-// import { userMemStore } from "./mem/user-mem-store.ts";
-// import { countyMemStore } from "./mem/county-mem-store.ts";
-// import { placeMemStore } from "./mem/place-mem-store.ts";
-
+import { userMemStore } from "./mem/user-mem-store.js";
+import { poiMemStore } from "./mem/poi-mem-store.js";
+import { reviewMemStore } from "./mem/review-mem-store.js";
 import { userJsonStore } from "./json/user-json-store.js";
-import { countyJsonStore } from "./json/county-json-store.js";
-import { placeJsonStore } from "./json/place-json-store.js";
+import { poiJsonStore } from "./json/poi-json-store.js";
+import { reviewJsonStore } from "./json/review-json-store.js";
+import { userMongoStore } from "./mongo/user-mongo-store.js";
+import { poiMongoStore } from "./mongo/poi-mongo-store.js";
+import { reviewMongoStore } from "./mongo/review-mongo-store.js";
+import { connectMongo } from "./mongo/connect.js";
 
 export const db = {
   userStore: null,
-  countyStore: null,
-  placeStore: null,
+  poiStore: null,
+  reviewStore: null,
 
-  init() {
-    this.userStore = userJsonStore;
-    this.countyStore = countyJsonStore;
-    this.placeStore = placeJsonStore;
+  init(storeType) {
+    switch (storeType) {
+      case "json":
+        this.userStore = userJsonStore;
+        this.poiStore = poiJsonStore;
+        this.reviewStore = reviewJsonStore;
+        break;
+      case "mongo":
+        this.userStore = userMongoStore;
+        this.poiStore = poiMongoStore;
+        this.reviewStore = reviewMongoStore;
+        connectMongo();
+        break;
+      default:
+        this.userStore = userMemStore;
+        this.poiStore = poiMemStore;
+        this.reviewStore = reviewMemStore;
+    }
   },
 };
