@@ -13,3 +13,7 @@ Deployed on http://localhost:3000/
 Pushed to Git
 
 Fully intend to implement some missing features (good, outstanding, excellent) into Assignment V2 for a more powerful application.
+
+UPDATE:
+
+Incoroprated missing features on to Assignment 2, along with the rubric for Assignment 2
