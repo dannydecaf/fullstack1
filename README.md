@@ -1,7 +1,4 @@
-# fullstack1
-Full Stack Web Dev Assignment 1
-
-Name: Daniel Coffey
+# Full Stack Web Dev Assignment 1 & 2
 
 Developed initial stages of 'PlaceMark' application, which will evolve and progress over time and into assignment 2.
 
@@ -14,6 +11,6 @@ Pushed to Git
 
 Fully intend to implement some missing features (good, outstanding, excellent) into Assignment V2 for a more powerful application.
 
-UPDATE:
+# UPDATE:
 
 Incoroprated missing features on to Assignment 2, along with the rubric for Assignment 2
